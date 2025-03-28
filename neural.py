@@ -82,6 +82,7 @@ def main(args):
             correct += (predicted == labels).sum().item()
 
     print(f"Accuracy on the test set: {100 * correct / total:.2f}%")
+    print("ok")
 
 if __name__ == '__main__':
     # Create the parser and add hyperparameter arguments.
